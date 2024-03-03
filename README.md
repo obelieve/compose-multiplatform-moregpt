@@ -7,17 +7,20 @@
 - 使用openai的GPT API提供gpt生成式文本
   - 目前支持android 平台，需要在'com.zxy.core.cache.GlobalCacheRepository'中配置token key。
 ### 预览
-![logo](https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/logo.jpg "logo")
+##### Android
 
-![android-1](https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-1.jpeg "android")
+<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-1.jpeg" width = "50%" />
+<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-2.jpeg" width = "50%" />
+<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-3.gif" width = "50%" />
 
-![android-2](https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-2.jpeg "android")
+##### IOS
 
-![android-3](https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-3.gif "android")
+<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/ios-1.png" width = "50%" />
 
-![ios](https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/ios-1.png "ios")
+##### Desktop
 
-![desktop](https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/desktop-1.png "desktop")
+<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/desktop-1.png" width = "50%" />
+
 ### 开发环境
 - Android Studio Hedgehog | 2023.1.1 RC 1
 - Runtime version: 17.0.7+0-17.0.7b1000.6-10550314 aarch64
