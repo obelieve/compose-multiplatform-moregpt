@@ -6,7 +6,7 @@
 - 支持多平台Navigation组件 [PreCompose](https://github.com/Tlaster/PreCompose)
 - 支持多平台mvvm组件 [moko-mvvm](https://github.com/icerockdev/moko-mvvm)
 - 使用openai的GPT API提供gpt生成式文本
-  - 目前支持android 平台，需要在'com.zxy.core.cache.GlobalCacheRepository'中配置token key。
+`目前支持android 平台，需要在'com.zxy.core.cache.GlobalCacheRepository'中配置token key。`
 ### 预览
 ##### Android
 <div>
