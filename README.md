@@ -8,18 +8,19 @@
   - 目前支持android 平台，需要在'com.zxy.core.cache.GlobalCacheRepository'中配置token key。
 ### 预览
 ##### Android
-
-<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-1.jpeg" width = "50%" />
-<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-2.jpeg" width = "50%" />
-<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-3.gif" width = "50%" />
+<div>
+<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-1.jpeg" width = "30%" />
+<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-2.jpeg" width = "30%" />
+<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-3.gif" width = "30%" />
+</div>
 
 ##### IOS
 
-<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/ios-1.png" width = "50%" />
+<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/ios-1.png" width = "30%" />
 
 ##### Desktop
 
-<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/desktop-1.png" width = "50%" />
+<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/desktop-1.png" width = "80%" />
 
 ### 开发环境
 - Android Studio Hedgehog | 2023.1.1 RC 1
