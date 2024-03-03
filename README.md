@@ -1,4 +1,4 @@
-这是一个针对 Android、iOS、Desktop的 Kotlin [Compose 多平台](https://github.com/JetBrains/compose-multiplatform/#compose-multiplatform)的实验性Demo
+# 这是一个针对 Android、iOS、Desktop的 Kotlin [Compose 多平台](https://github.com/JetBrains/compose-multiplatform/#compose-multiplatform)的实验性Demo
 - 实现Android、ios、Desktop共享Compose UI组件
 - 支持多平台数据库库 [sqldelight](https://github.com/cashapp/sqldelight)
 - 支持多平台key-values存储库 [multiplatform-settings](https://github.com/russhwolf/multiplatform-settings)
@@ -10,7 +10,6 @@
 ##### Android
 <div>
 <img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-1.jpeg" width = "30%" />
-<img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-2.jpeg" width = "30%" />
 <img src="https://github.com/obelieve/compose-multiplatform-moregpt/blob/master/screenshot/android-3.gif" width = "30%" />
 </div>
 
