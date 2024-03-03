@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Moregpt</string>
+    <string name="placeholder_search">Search</string>
+    <string name="item">Item</string>
+    <string name="favorite_card_item">Nature meditations</string>
+    <string name="align_your_body_title">ALIGN YOUR BODY</string>
+    <string name="favorite_collections_title">FAVORITE COLLECTIONS</string>
+    <string name="new_conversation">新会话</string>
+
+    <string name="dialog_confirm">确认</string>
+    <string name="dialog_cancel">取消</string>
+
+    <string name="dialog_template_empty_tips">名称不能为空</string>
+    <string name="dialog_template_add_tips">你必须先发送一些消息在当前会话</string>
+    <string name="dialog_save_success_tips">保存成功</string>
+    <string name="dialog_key_change_tips">修改成功</string>
+</resources>

@@ -1,0 +1,74 @@
+lastInsertRowId:
+SELECT last_insert_rowid()
+;
+CREATE TABLE message (
+  id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  role TEXT NOT NULL,
+  content TEXT NOT NULL,
+  sessionId INTEGER NOT NULL DEFAULT 0,
+  responseTime INTEGER NOT NULL DEFAULT 0,
+  insertTime INTEGER DEFAULT (strftime('%s','now')),
+  type TEXT NOT NULL DEFAULT '',
+  error TEXT NOT NULL DEFAULT ''
+);
+CREATE INDEX message_id ON message(id);
+
+CREATE TABLE session (
+  id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  title TEXT DEFAULT '',
+  lastSessionTime INTEGER NOT NULL DEFAULT 0,
+  desc TEXT NOT NULL DEFAULT '',
+  tag TEXT NOT NULL DEFAULT ''
+);
+CREATE INDEX session_id ON session(id);
+
+CREATE TABLE SessionTag (
+  id TEXT NOT NULL PRIMARY KEY
+);
+CREATE INDEX SessionTag_id ON SessionTag(id);
+
+selectAll:
+SELECT *
+FROM message;
+insertMessage:
+INSERT OR IGNORE INTO message(role, content, sessionId, responseTime, insertTime, type, error)
+VALUES(?, ?, ?, ?, ?, ?, ?);
+updateMessageFromId:
+UPDATE message SET role = ?, content = ?,sessionId = ?,
+responseTime = ?,insertTime = ?,type = ?,
+error = ? WHERE id = ?;
+deleteMessage:
+DELETE FROM message WHERE id = ?;
+queryAllMessageFromRole:
+SELECT  * FROM message WHERE role = ?;
+queryAllMessageFromSessionId:
+SELECT  * FROM message WHERE sessionId = ?;
+queryMessage:
+SELECT * FROM message WHERE id =:id;
+queryAllMessage:
+SELECT * FROM message;
+
+insertSession:
+INSERT OR IGNORE INTO session(title, lastSessionTime, desc, tag)
+VALUES(?, ?, ?, ?);
+updateSession:
+UPDATE session SET title = ?, lastSessionTime = ?,desc = ?,
+tag = ? WHERE id = ?;
+updateSessionTitle:
+UPDATE session SET title = ? WHERE id = ?;
+deleteSession:
+DELETE FROM session WHERE id = ?;
+querySession:
+SELECT * FROM session WHERE id = ?;
+querySessions:
+SELECT * FROM session ORDER BY id DESC LIMIT ?;
+queryAllSession:
+SELECT * FROM session ORDER BY id DESC;
+queryAllSessionFromTag:
+SELECT * FROM session WHERE tag=? ORDER BY id DESC;
+
+insertSessionTag:
+INSERT OR IGNORE INTO SessionTag(id)
+VALUES(?);
+queryAllSessionTag:
+SELECT * FROM SessionTag;
