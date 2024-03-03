@@ -1,4 +1,4 @@
-rootProject.name = "ComposeMultiPlatformApiGpt"
+rootProject.name = "ComposeMultiPlatformMoreGpt"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
